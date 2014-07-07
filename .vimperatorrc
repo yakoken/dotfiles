@@ -1,0 +1,39 @@
+﻿set titlestring=Vimperator
+
+nnoremap ,s :so ~/.vimperatorrc<CR>
+
+echo "vimperatorrc roaded"
+
+" Mappings
+"j/kの移動量を10倍に
+noremap j 10<C-e>
+noremap k 10<C-y>
+
+"J/KにPageDown,PageUpを割り当て(LDRizeが効いている場合でも指のポジションを動かさずに済む
+noremap J <PageDown>
+noremap K <PageUp>
+
+"h/lで戻る/進む
+noremap h <A-Left>
+noremap l <A-Right>
+
+"H/Lでタブ移動
+noremap H gT
+noremap L gt
+
+"←/→でタブ移動
+map <Left> <C-p>
+map <Right> <C-n>
+
+"Shift+←/Shift+→でタブ位置変更
+map <S-Right> :tabmove! +1<CR>
+map <S-Left> :tabmove! -1<CR>
+
+"ページロード時にテキストボックスにフォーカスするのを防ぐ
+set focuscontent
+
+":clipでPocketに投げる
+command clip echo RIL.addCurrent() !== false ? 'Success' : 'Failed (or already clipped?)'
+
+"起動時にnavigation消す
+set gui=tabs,noaddons,nomenu,nonavigation,nobookmarks
