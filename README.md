@@ -7,8 +7,6 @@
 ##おしながき
 
 - .vimrc
-
-
 - .zshrc
-  - .aliases
-    - ramenTimer
+- .aliases
+  - ramenTimer
