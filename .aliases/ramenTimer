@@ -1,0 +1,8 @@
+#らーめん・うどんたいまー
+#alias ramen="sleep 180; SayKana ラーメンできたよ"
+alias ramen="sleep 60; echo "1分たったよ";sleep 60; echo "2分たったよ";sleep 60; SayKana ラーメンできたよ"
+
+#alias udon="sleep 300; SayKana おうどんできたよ"
+alias udon="sleep 60; echo "1分たったよ";sleep 60; echo "2分たったよ";sleep 60; echo "3分たったよ";sleep 60; echo "4分たったよ";sleep 60; SayKana おうどんできたよ"
+
+echo "らーめんたいまー roaded"
