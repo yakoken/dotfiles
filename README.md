@@ -6,5 +6,5 @@
 
 
 - .zshrc
--- .aliases
---- ramenTimer
+  - .aliases
+    - ramenTimer
