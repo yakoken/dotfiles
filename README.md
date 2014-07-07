@@ -1,4 +1,6 @@
-=dotfiles
-==おしながき
--.vimrc
--.zshrc
+#dotfiles
+
+##おしながき
+
+- .vimrc
+- .zshrc
