@@ -1,4 +1,4 @@
-dotfiles
-========
-
-".hogehoge"files
+=dotfiles
+==おしながき
+-.vimrc
+-.zshrc
