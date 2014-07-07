@@ -11,3 +11,4 @@
 - .aliases
   - ramenTimer
 - .vimperatorrc
+- .tmux.conf
