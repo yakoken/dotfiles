@@ -12,3 +12,4 @@
   - ramenTimer
 - .vimperatorrc
 - .tmux.conf
+- .muttrc
