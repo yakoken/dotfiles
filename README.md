@@ -10,3 +10,4 @@
 - .zshrc
 - .aliases
   - ramenTimer
+- .vimperatorrc
